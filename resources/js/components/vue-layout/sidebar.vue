@@ -13,8 +13,8 @@
                             <li class="active">
                                 <a href="#" aria-expanded="true"><span>ຈັດການຂໍໍ້ມູນພະນັກງານ</span></a>
                                 <ul class="collapse">
-                                    <li><a href="emp">ປະຫວັດພະນັກງານ</a></li>
-                                    <li><a href="#">ເງີນເດືອນ</a></li>
+                                    <li><router-link to="/">ປະຫວັດພະນັກງານ</router-link></li>
+                                    <li><router-link to="/employee">ເງີນເດືອນ</router-link></li>
 
                                 </ul>
                             </li>

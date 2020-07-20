@@ -40,7 +40,7 @@ Vue.use(VueRouter);
 const router = new VueRouter(
     {
         mode:'history',
-        router:routes
+        routes
     }
 );
 const app = new Vue({
